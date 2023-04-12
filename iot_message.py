@@ -4,6 +4,7 @@ import json
 import base64
 import time
 import binascii
+import os
 
 class MSG_FIELDS(bytes):
     HEADER = b'\x00\x00\x55\xAA'
@@ -79,6 +80,17 @@ class CMD_TYPE(IntEnum):
     UNKNOWN = -1
 
 base64_messages = ['127', '128', '129', '130', '131', '132', '133']
+
+if os.path.exists("data.json"):
+    with open("data.json", "r") as file:
+        data_dict = json.load(file)
+
+else:
+    key = input("Please enter a value for 'key': ")
+    devId = input("Please enter a value for 'devId': ")
+    data_dict = {"key": key, "devId": devId}
+    with open("data.json", "w") as file:
+        json.dump(data_dict, file)
 
 class IoT_Message:
     def __init__(self):
@@ -156,8 +168,8 @@ class IoT_Message:
         dps_data = {}
         dps_data[dps] = data
         json_data = {}
-        json_data["devId"] = "eba3e8421dd9524756bxls"
-        json_data["uid"] = "000003c1yv"
+        json_data["devId"] = data_dict["gw_di"]["id"]#"eba3e8421dd9524756bxls"
+        json_data["uid"] = data_dict["gw_di"]["s_id"]#"000003c1yv"
         json_data["t"] = int(time.time())
         json_data["dps"] = dps_data
 
