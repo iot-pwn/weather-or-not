@@ -1,0 +1,273 @@
+{
+	"gw_bi": {
+		"uuid": "YOUR_UUID",
+		"psk_key": "YOUR_PSK",
+		"auth_key": "YOUR_AUTH_KEY",
+		"ap_ssid": "SmartLife",
+		"ap_passwd": null,
+		"country_code": "CN",
+		"bt_mac": null,
+		"bt_hid": null,
+		"prod_test": false,
+		"fac_pin": "YOUR_FAC_PIN"
+	},
+	"baud_cfg": {
+		"baud": 9600
+	},
+	"tls_ca_cnt": 0,
+	"mf_test_close": true,
+	"wf_start_md": 129,
+	"astro_timer": {
+		"timestamp": 1681309003,
+		"index": 0
+	},
+	"gw_di": {
+		"abi": 0,
+		"id": "YOUR_ID (REQUIRED)",
+		"swv": "1.0.2",
+		"bv": "40.00",
+		"pv": "2.2",
+		"lpv": "3.3",
+		"pk": "YOUR_PK",
+		"firmk": "YOUR_FIRMK",
+		"cadv": "1.0.3",
+		"cdv": "1.0.0",
+		"dev_swv": "1.0.1",
+		"s_id": "YOUR_SID (REQUIRED)",
+		"dtp": 9,
+		"sync": 0,
+		"attr_num": 0,
+		"mst_tp_0": 0,
+		"mst_ver_0": null,
+		"mst_tp_1": 0,
+		"mst_ver_1": null,
+		"mst_tp_2": 0,
+		"mst_ver_2": null,
+		"mst_tp_3": 0,
+		"mst_ver_3": null
+	},
+	"gw_wsm": {
+		"nc_tp": 9,
+		"ssid": "YOUR_WIFI_NETWORK_NAME",
+		"passwd": "YOUR_WIFI_NETWORK_PASSWORD",
+		"md": 0,
+		"random": 0,
+		"wfb64": 1,
+		"stat": 2,
+		"token": "GRcquR1P",
+		"region": "AZ",
+		"reg_key": "4b34",
+		"dns_prio": 2
+	},
+	"is_stride": 0,
+	"timer_arr": {
+		"lastFetchTime": 0,
+		"cnt": 0
+	},
+	"gw_ai": {
+		"key": "YOUR_KEY",
+		"lckey": "YOUR_LCKEY (REQUIRED)",
+		"h_url": "http://a.tuyaus.com/d.json",
+		"h_ip": "44.233.174.248",
+		"hs_url": null,
+		"hs_ip": null,
+		"hs_psk": "https://a3.tuyaus.com/d.json",
+		"hs_psk_ip": "54.187.112.38",
+		"mqs_url": null,
+		"mqs_ip": null,
+		"mq_url": "m2.tuyaus.com:1883",
+		"mq_ip": "35.162.13.26",
+		"ai_sp": null,
+		"ai_sp_ip": null,
+		"mq_psk": "m2.tuyaus.com:8886",
+		"mq_psk_ip": "35.162.13.26",
+		"time_z": "-06:00",
+		"s_time_z": "[[1678608000,1699167600],[1710057600,1730617200]]",
+		"wx_app_id": null,
+		"wx_uuid": null,
+		"dy_tls_m": 2,
+		"cloud_cap": 1025,
+		"psk21_key": null
+	},
+	"000003c1yv": [
+		{
+			"trigger": "direct",
+			"type": "obj",
+			"mode": "ro",
+			"property": {
+				"min": -200,
+				"max": 600,
+				"scale": 1,
+				"step": 1,
+				"type": "value"
+			},
+			"id": 1
+		},
+		{
+			"trigger": "direct",
+			"type": "obj",
+			"mode": "rw",
+			"property": {
+				"min": -100,
+				"max": 500,
+				"scale": 1,
+				"step": 1,
+				"type": "value"
+			},
+			"id": 101
+		},
+		{
+			"trigger": "direct",
+			"type": "obj",
+			"mode": "rw",
+			"property": {
+				"min": 0,
+				"max": 1000,
+				"scale": 1,
+				"step": 1,
+				"type": "value"
+			},
+			"id": 102
+		},
+		{
+			"trigger": "direct",
+			"type": "obj",
+			"mode": "rw",
+			"property": {
+				"min": -500,
+				"max": 700,
+				"scale": 1,
+				"step": 1,
+				"type": "value"
+			},
+			"id": 103
+		},
+		{
+			"trigger": "direct",
+			"type": "obj",
+			"mode": "rw",
+			"property": {
+				"min": 0,
+				"max": 1000,
+				"scale": 1,
+				"step": 1,
+				"type": "value"
+			},
+			"id": 104
+		},
+		{
+			"trigger": "direct",
+			"type": "obj",
+			"mode": "rw",
+			"property": {
+				"min": -500,
+				"max": 700,
+				"scale": 1,
+				"step": 1,
+				"type": "value"
+			},
+			"id": 105
+		},
+		{
+			"trigger": "direct",
+			"type": "obj",
+			"mode": "rw",
+			"property": {
+				"min": 0,
+				"max": 1000,
+				"scale": 1,
+				"step": 1,
+				"type": "value"
+			},
+			"id": 106
+		},
+		{
+			"trigger": "direct",
+			"type": "obj",
+			"mode": "rw",
+			"property": {
+				"min": -500,
+				"max": 700,
+				"scale": 1,
+				"step": 1,
+				"type": "value"
+			},
+			"id": 107
+		},
+		{
+			"trigger": "direct",
+			"type": "obj",
+			"mode": "rw",
+			"property": {
+				"min": 0,
+				"max": 1000,
+				"scale": 1,
+				"step": 1,
+				"type": "value"
+			},
+			"id": 108
+		},
+		{
+			"trigger": "direct",
+			"type": "obj",
+			"mode": "rw",
+			"property": {
+				"range": [
+					"moist",
+					"dry",
+					"comfortable",
+					"na"
+				],
+				"type": "enum"
+			},
+			"id": 126
+		},
+		{
+			"mode": "rw",
+			"id": 127,
+			"trigger": "direct",
+			"type": "raw"
+		},
+		{
+			"mode": "rw",
+			"id": 128,
+			"trigger": "direct",
+			"type": "raw"
+		},
+		{
+			"mode": "rw",
+			"id": 129,
+			"trigger": "direct",
+			"type": "raw"
+		},
+		{
+			"mode": "rw",
+			"id": 130,
+			"trigger": "direct",
+			"type": "raw"
+		},
+		{
+			"mode": "rw",
+			"id": 131,
+			"trigger": "direct",
+			"type": "raw"
+		},
+		{
+			"trigger": "direct",
+			"type": "obj",
+			"mode": "ro",
+			"property": {
+				"type": "bitmap",
+				"maxlen": 11
+			},
+			"id": 132
+		},
+		{
+			"mode": "rw",
+			"id": 133,
+			"trigger": "direct",
+			"type": "raw"
+		}
+	],
+	"em_sys_env": "bk7231n"
+}
